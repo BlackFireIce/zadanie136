@@ -61,5 +61,18 @@ void prostopadloscian() {
 
 
 }
-void ostroslup() {
+void ostroslup()  {
+    float a;
+    float h;
+    float pole_ostroslupa_prawidlowego_czworokatnego;
+
+    printf ("Podaj dlugosc boku a - ");
+    scanf ("%f", &a);
+
+    printf ("Podaj wysokosc ostroslupa h - ");
+    scanf ("%f", &h);
+
+    pole_ostroslupa_prawidlowego_czworokatnego = (a * a + 2 * a * h) ;
+    printf("\nPole ostroslupa wynosi:% .2f\n\n", pole_ostroslupa_prawidlowego_czworokatnego);
+
 }
