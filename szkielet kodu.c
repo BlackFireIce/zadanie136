@@ -39,6 +39,27 @@ int main() {
 }
 
 void prostopadloscian() {
+
+
+    float a;
+    float b;
+    float c;
+    float pole_prostopadloscianu;
+
+    printf ("Podaj dlugosc boku a - ");
+    scanf ("%f", &a);
+
+    printf ("Podaj dlugosc boku b - ");
+    scanf ("%f", &b);
+
+    printf ("Podaj dlugosc boku c - ");
+    scanf ("%f", &c);
+
+    pole_prostopadloscianu = 2 * (a * b +  a * c +  b * c);
+
+    printf("\nPole prostopadloscianu wynosi: %.2f\n\n", pole_prostopadloscianu);
+
+
 }
 void ostroslup() {
 }
